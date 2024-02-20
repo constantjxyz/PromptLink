@@ -6,12 +6,13 @@ In this paper, we address the biomedical concept linking task, which aims to lin
 
 <div style="text-align: center;">
     <figure>
-        <img src="docs/figure1.png" alt="toy-example" width="570" height="280" style="display: block; margin-left: auto; margin-right: auto;">
-        <figcaption style="margin-top: 8px;">
-            Figure 1: A toy example of biomedical concept linking. Left: concepts in the EHR. Right: concepts in the biomedical KG.
+        <img src="docs/figure1.png" alt="toy-example" width="570" height="280" style="display: block; margin: 0 auto;">
+        <figcaption style="display: block; margin-top: 8px;">
+            Figure 1: A toy example of biomedical concept linking. Left: concepts in the EHR. Right: concepts in the biomedical KG
         </figcaption>
     </figure>
 </div>
+
 
 
 
