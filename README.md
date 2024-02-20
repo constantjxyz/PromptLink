@@ -2,8 +2,9 @@
 This repo contains our code for paper "PromptLink: Leveraging Large Language Models for Cross-Source Biomedical Concept Linking".
 
 ## Task Description
+<div align="center">
 <img src="docs/figure1.png" alt="toy-example" width="580" height="280">
-
+</div>
 
 ## Model Framework
 
