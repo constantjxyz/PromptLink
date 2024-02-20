@@ -5,13 +5,8 @@ This repo contains our code for paper "PromptLink: Leveraging Large Language Mod
 In this paper, we address the biomedical concept linking task, which aims to link biomedical concepts across sources/systems based on their semantic meanings and biomedical knowledge. It solely relies on concept names, and can thus cover a much broader range of real-world applications. This task differs from existing tasks such as entity linking, entity alignment, and ontology matching, which depend on additional contextual or topological information. A toy example of the biomedical concept linking task is described in the following figure.
 
 <div style="text-align: center;">
-    <figure>
-        <img src="docs/figure1.png" alt="toy-example" width="570" height="280" style="display: block; margin: 0 auto;">
-	<br>
-        <figcaption style="display: block; margin-top: 8px;">
-            Figure 1: A toy example of biomedical concept linking. Left: concepts in the EHR. Right: concepts in the biomedical KG
-        </figcaption>
-    </figure>
+    <img src="docs/figure1.png" alt="toy-example" width="570" height="280" style="display: block; margin: auto;">
+    <p style="text-align: center;">Figure 1: A toy example of biomedical concept linking. Left: concepts in the EHR. Right: concepts in the biomedical KG</p>
 </div>
 
 
