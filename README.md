@@ -20,31 +20,31 @@ PromptLink is a novel biomedical concept linking framework that leverages Large 
 ## Package 
 **["requirements.txt" file could be used to download the python packages automatically]**
 
-*python==3.8.10
+* python==3.8.10
 
-*editdistance==0.6.2
+* editdistance==0.6.2
 
-*fire==0.5.0
+* fire==0.5.0
 
-*numpy==1.19.5
+* numpy==1.19.5
 
-*openai==0.28.1
+* openai==0.28.1
 
-*pandas==1.3.4
+* pandas==1.3.4
 
-*rank_bm25==0.2.2
+* rank_bm25==0.2.2
 
-*scipy==1.12.0
+* scipy==1.12.0
 
-*simstring_pure==1.0.0
+* simstring_pure==1.0.0
 
-*textdistance==4.6.1
+* textdistance==4.6.1
 
-*torch==1.10.0+cu111
+* torch==1.10.0+cu111
 
-*tqdm==4.66.1
+* tqdm==4.66.1
 
-*transformers==4.33.3
+* transformers==4.33.3
 
 ## Data
 We curate two biomedical concept linking benchmark datasets: MIID (MIMIC-III-iBKH-Disease) and CISE (CRADLE-iBKH-Side-Effect), using data from MIMIC-III EHR dataset [MIMIC Link](https://physionet.org/content/mimiciii/1.4/), CRADLE EHR dataset, iBKH KG dataset [iBKH Link](https://github.com/wcm-wanglab/iBKH), and UMLS coding system [UMLS Link](https://www.nlm.nih.gov/research/umls/index.html). Due to the sensitive nature of medical data and privacy considerations, there are restrictions on data sharing. To gain access to these medical datasets, appropriate training and credentials may be required. For further assistance with data access or other related inquiries, please feel free to reach out to our author team.
