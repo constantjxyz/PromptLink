@@ -10,9 +10,7 @@ In this paper, we address the biomedical concept linking task, which aims to lin
 </div>
 
 ## PromptLink Framework
-PromptLink is a novel biomedical concept linking framework
-that leverages LLMs. It first employs a biomedical-specialized pre-trained language model to generate candidate concepts that can fit in the LLM context windows. Then it utilizes an LLM to link concepts through two-stage prompts, where the first-stage prompt aims to elicit the biomedical prior knowledge from the LLM for the concept linking task and the second-stage prompt enforces
-the LLM to reflect on its own predictions to further enhance their reliability. The overview of PromptLink Framework is illustrated in the following figure.
+PromptLink is a novel biomedical concept linking framework that leverages Large Language Models (LLMs). It first employs a pre-trained language model specialized in biomedicine to generate candidate concepts that fit within the LLM context windows. Then, it utilizes an LLM to link concepts through two-stage prompts. The first-stage prompt aims to elicit biomedical prior knowledge from the LLM for the concept linking task, while the second-stage prompt compels the LLM to reflect on its own predictions to further enhance their reliability. The overview of the PromptLink Framework is illustrated in the following figure.
 
 ![model-framework](docs/figure2.png)
 <div align="center">
@@ -45,4 +43,7 @@ torch==1.10.0+cu111
 tqdm==4.66.1
 
 transformers==4.33.3
+
+## Data
+We curate two biomedical concept linking benchmark datasets: MIID (MIMIC-III-iBKH-Disease) and CISE (CRADLE-iBKH-Side-Effect), using data from MIMIC-III EHR dataset [MIMIC Link](https://physionet.org/content/mimiciii/1.4/), CRADLE EHR dataset, and iBKH KG dataset [iBKH Link](https://github.com/wcm-wanglab/iBKH).
 
