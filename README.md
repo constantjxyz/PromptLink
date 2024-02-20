@@ -18,32 +18,45 @@ PromptLink is a novel biomedical concept linking framework that leverages Large 
 </div>
 
 ## Package 
-**["requirements.txt" file could be used to download the following packages automatically]**
+**["requirements.txt" file could be used to download the python packages automatically]**
 
-editdistance==0.6.2
+*python==3.8.10
 
-fire==0.5.0
+*editdistance==0.6.2
 
-numpy==1.19.5
+*fire==0.5.0
 
-openai==0.28.1
+*numpy==1.19.5
 
-pandas==1.3.4
+*openai==0.28.1
 
-rank_bm25==0.2.2
+*pandas==1.3.4
 
-scipy==1.12.0
+*rank_bm25==0.2.2
 
-simstring_pure==1.0.0
+*scipy==1.12.0
 
-textdistance==4.6.1
+*simstring_pure==1.0.0
 
-torch==1.10.0+cu111
+*textdistance==4.6.1
 
-tqdm==4.66.1
+*torch==1.10.0+cu111
 
-transformers==4.33.3
+*tqdm==4.66.1
+
+*transformers==4.33.3
 
 ## Data
-We curate two biomedical concept linking benchmark datasets: MIID (MIMIC-III-iBKH-Disease) and CISE (CRADLE-iBKH-Side-Effect), using data from MIMIC-III EHR dataset [MIMIC Link](https://physionet.org/content/mimiciii/1.4/), CRADLE EHR dataset, and iBKH KG dataset [iBKH Link](https://github.com/wcm-wanglab/iBKH).
+We curate two biomedical concept linking benchmark datasets: MIID (MIMIC-III-iBKH-Disease) and CISE (CRADLE-iBKH-Side-Effect), using data from MIMIC-III EHR dataset [MIMIC Link](https://physionet.org/content/mimiciii/1.4/), CRADLE EHR dataset, iBKH KG dataset [iBKH Link](https://github.com/wcm-wanglab/iBKH), and UMLS coding system [UMLS Link](https://www.nlm.nih.gov/research/umls/index.html). Due to the sensitive nature of medical data and privacy considerations, there are restrictions on data sharing. To gain access to these medical datasets, appropriate training and credentials may be required. For further assistance with data access or other related inquiries, please feel free to reach out to our author team.
+
+## Code
+Most of the code is stored in three folders: "gen_candidates", "gen_gpt_responses", and "baselines". More details can be found within these folders respectively.
+
+* "gen_candidates": This folder contains the code for PromptLink's concept representation and candidate generation process.
+
+* "gen_gpt_responses": This folder shows how PromptLink leverages the LLM to retrieve the final prediction answer. 
+
+* "baselines": This folder contains the code for running all compared baseline methods, including BM25, Levenshtein Distance, BioBERT, and SAPBERT.
+
+
 
