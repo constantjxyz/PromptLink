@@ -12,9 +12,9 @@ In this paper, we address the biomedical concept linking task, which aims to lin
 ## PromptLink Framework
 PromptLink is a novel biomedical concept linking framework that leverages Large Language Models (LLMs). It first employs a pre-trained language model specialized in biomedicine to generate candidate concepts that fit within the LLM context windows. Then, it utilizes an LLM to link concepts through two-stage prompts. The first-stage prompt aims to elicit biomedical prior knowledge from the LLM for the concept linking task, while the second-stage prompt compels the LLM to reflect on its own predictions to further enhance their reliability. The overview of the PromptLink Framework is illustrated in the following figure.
 
-![model-framework](docs/figure2.jpg)
 <div align="center">
-    <p style="font-size:1px">Figure 2: Overview of our proposed PromptLink framework. </p>
+    <img src="docs/figure2.jpg" alt="framework" width="700" height="350">
+    <p style="font-size:1px">Figure 2: Overview of our proposed PromptLink framework.</p>
 </div>
 
 ## Package 
