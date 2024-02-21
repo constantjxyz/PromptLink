@@ -6,7 +6,7 @@ In this paper, we address the biomedical concept linking task, which aims to lin
 
 <div align="center">
     <img src="docs/figure1.jpg" alt="toy-example" width="570" height="275">
-    <p style="font-size:1px">Figure 1: A toy example. Left: concepts in the EHR. Right: concepts in the biomedical KG.</p>
+    <p">Figure 1: A toy example. Left: concepts in the EHR. Right: concepts in the biomedical KG.</p>
 </div>
 
 ## PromptLink Framework
@@ -14,7 +14,7 @@ PromptLink is a novel biomedical concept linking framework that leverages Large 
 
 <div align="center">
     <img src="docs/figure2.jpg" alt="framework" width="800" height="300">
-    <p style="font-size:1px">Figure 2: Overview of our proposed PromptLink framework.</p>
+    <p">Figure 2: Overview of our proposed PromptLink framework.</p>
 </div>
 
 ## Package 
