@@ -52,11 +52,11 @@ We curate two biomedical concept linking benchmark datasets: MIID (MIMIC-III-iBK
 ## Code
 Most of the code is stored in three folders: "gen_candidates", "gen_gpt_responses", and "baselines". More details can be found within these folders respectively.
 
-* "gen_candidates": This folder contains the code for PromptLink's concept representation and candidate generation process.
+* Folder "gen_candidates": This folder contains the code for PromptLink's concept representation and candidate generation process.
 
-* "gen_gpt_responses": This folder shows how PromptLink leverages the LLM to retrieve the final prediction answer. 
+* Folder "gen_gpt_responses": This folder shows how PromptLink leverages the LLM to retrieve the final prediction answer. 
 
-* "baselines": This folder contains the code for running all compared baseline methods, including BM25, Levenshtein Distance, BioBERT, and SAPBERT.
+* Folder "baselines": This folder contains the code for running all compared baseline methods, including BM25, Levenshtein Distance, BioBERT, and SAPBERT.
 
 
 
