@@ -13,8 +13,8 @@ This folder contains the code for PromptLink's concept representation and candid
 
 * File "matching_embeddings.py": This file calculates the cosine similarity between concept embedding pairs and identifies the top-K candidates with the highest similarities as candidates for further GPT-based linking prediction.
 
-* "utils/metrics.py": Describes how we calculate the linking accuracy results.
+* File "utils/metrics.py": Describes how we calculate the linking accuracy results.
 
-* "utils/distances.py": Details the method for calculating the similarity between embedding pairs.
+* File "utils/distances.py": Details the method for calculating the similarity between embedding pairs.
 
-* "utils/others.py": Contains other utility functions for data input/output (I/O).
+* File "utils/others.py": Contains other utility functions for data input/output (I/O).
